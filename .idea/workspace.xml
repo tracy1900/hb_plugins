@@ -2,114 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe1ffb03-d03a-4a16-9f48-6982a9986a7a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/inc/code.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/common.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/config_db_bind.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/des.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/es_imagecls.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/example.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/judge_format.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/log.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/mysql.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/transaction_order/ba_recharge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/transaction_order/ba_recharge_confirm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/transaction_order/ba_withdraw.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/transaction_order/ba_withdraw_confirm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/transaction_order/ca_recharge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/transaction_order/ca_recharge_confirm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/transaction_order/ca_withdraw.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/transaction_order/ca_withdraw_confirm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/transaction_order/db/com_base_balance.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/transaction_order/la_ba_recharge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/transaction_order/la_ba_recharge_confirm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/transaction_order/la_ba_withdraw.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/transaction_order/la_ba_withdraw_confirm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/transaction_order/la_ca_recharge_confirm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/transaction_order/la_ca_withdraw.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/transaction_order/la_ca_withdraw_confirm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Core/MimeTypes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Core/OssException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Core/OssUtil.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Http/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Http/RequestCore.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Http/RequestCore_Exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Http/ResponseCore.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/BucketInfo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/BucketListInfo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/CnameConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/CorsConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/CorsRule.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/GetLiveChannelHistory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/GetLiveChannelInfo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/GetLiveChannelStatus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/LifecycleAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/LifecycleConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/LifecycleRule.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/ListMultipartUploadInfo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/ListPartsInfo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/LiveChannelConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/LiveChannelHistory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/LiveChannelInfo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/LiveChannelListInfo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/LoggingConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/ObjectInfo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/ObjectListInfo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/PartInfo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/PrefixInfo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/RefererConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/StorageCapacityConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/UploadInfo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/WebsiteConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Model/XmlConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/OssClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/AclResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/AppendResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/BodyResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/CallbackResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/CopyObjectResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/DeleteObjectsResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/ExistResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/GetCnameResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/GetCorsResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/GetLifecycleResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/GetLiveChannelHistoryResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/GetLiveChannelInfoResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/GetLiveChannelStatusResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/GetLocationResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/GetLoggingResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/GetRefererResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/GetStorageCapacityResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/GetWebsiteResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/HeaderResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/InitiateMultipartUploadResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/ListBucketsResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/ListLiveChannelResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/ListMultipartUploadResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/ListObjectsResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/ListPartsResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/PutLiveChannelResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/PutSetDeleteResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/Result.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/SymlinkResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/Result/UploadPartResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/OSS/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/alioss/mimetypes.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/alioss/requestcore.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/alioss/sdk.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/bind/GoogleAuthenticator/GoogleAuthenticator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/email/class.phpmailer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/email/class.smtp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/email/email_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/email/send_email.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/ip_service/get_ip.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/sms/SignatureHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/sms/Test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/sms/querySendDetails.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/sms/sendBatchSms.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/sms/sendSms.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/sms/sms_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload_file/upload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload_file/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/upload_file/upload.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -133,8 +26,8 @@
       <file leaf-file-name="upload.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/upload_file/upload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="330">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -149,6 +42,7 @@
       <list>
         <option value="$PROJECT_DIR$/inc/upload.php" />
         <option value="$PROJECT_DIR$/inc/db_connect.php" />
+        <option value="$PROJECT_DIR$/upload_file/upload.php" />
       </list>
     </option>
   </component>
@@ -238,12 +132,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536058824757</updated>
-      <workItem from="1536058826075" duration="620000" />
+      <workItem from="1536058826075" duration="670000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="620000" />
+    <option name="totallyTimeSpent" value="670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -292,8 +186,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/upload_file/upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="330">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>

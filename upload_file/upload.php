@@ -21,6 +21,8 @@ $scr = $_FILES['file']['tmp_name'];
 
 $ext = substr($_FILES['file']['name'],strrpos($_FILES['file']['name'],'.')+1); // 上传文件后缀
 
+
+
 $dst = md5(time()).'-'.$scr.'.'.$ext;
 
 try {
