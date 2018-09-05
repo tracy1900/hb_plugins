@@ -17,7 +17,7 @@ require_once "../inc/common.php";
 //$body = "www.baidu.com" . "?cfm_hash=";
 //$encryption_code = "1".','."15901839273@163.com".',' . $timestamp .',' ."11";
 //$body .=urlencode($des -> encrypt($encryption_code, "windwin"));
-$ret = send_email($name='', "15901839273@163.com", "11", "222");
+$ret = send_email($name='11', "1378333642@qq.com", "11", "222");
 if(!$ret){
     exit_error('124','邮件发送失败请稍后重试！');
 }
