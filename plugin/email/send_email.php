@@ -11,25 +11,24 @@
 //======================================
 function send_email($name='', $email, $title, $body)
 {
-  require_once('class.phpmailer.php');
-//  $json = file_get_contents(__DIR__.'/email_config.json');
-//  $arr = json_decode($json,true);
-  $mail = new PHPMailer();
-  $mail->IsSMTP();
-  $mail->SMTPAuth   = true;
-  $mail->SMTPSecure = 'ssl';
-  $mail->Host       = 'smtp.163.com';
-  $mail->Port       = 465;
-  $mail->Username   = '"15901839273@163.com"';
-  $mail->Password   = "Windwin2018";
-  $mail->CharSet    = "utf-8";
-  $mail->SMTPDebug = 2;
-  $mail->SetFrom('15901839273@163.com', '上海风赢网络科技有限公司');
-  $mail->Subject    = $title;
-  $mail->MsgHTML($body);
-  $mail->AddAddress($email, $name);
-  if ($mail->Send())
-    return true;
-  return false;
+    require_once('class.phpmailer.php');
+    $json = file_get_contents(__DIR__.'/email_config.json');
+    $arr = json_decode($json,true);
+    $mail = new PHPMailer();
+    $mail->IsSMTP();
+    $mail->SMTPAuth   = true;
+    $mail->SMTPSecure = 'ssl';
+    $mail->Host       = 'smtp.163.com';
+    $mail->Port       = 465;
+    $mail->Username   = 'phpmanong@163.com';
+    $mail->Password   = 'winwind2018';
+    $mail->CharSet    = "utf-8";
+    $mail->SetFrom('phpmanong@163.com', '上海风赢网络科技有限公司');
+    $mail->Subject    = $title;
+    $mail->MsgHTML($body);
+    $mail->AddAddress($email, $name);
+    if ($mail->Send())
+        return true;
+    return false;
 }
 ?>
