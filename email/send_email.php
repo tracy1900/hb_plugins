@@ -18,3 +18,4 @@ $ret = send_email($name='', "15901839273@163.com", $title, $body);
 if(!$ret){
     exit_error('124','邮件发送失败请稍后重试！');
 }
+exit_ok('Please verify email as soon as possible!');
