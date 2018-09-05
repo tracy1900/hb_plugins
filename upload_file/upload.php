@@ -15,7 +15,7 @@ $accessKeySecret = "OTETap8a971xgfYdNCawWuHTkbR5dj";
 $endpoint = "oss-cn-beijing.aliyuncs.com";
 // 存储空间名称
 $bucket = "hivebanks";
-
+print_r(1);
 $args = array('la_id');
 chk_empty_args('GET', $args);
 
