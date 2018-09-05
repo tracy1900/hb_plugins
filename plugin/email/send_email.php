@@ -16,15 +16,13 @@ function send_email($name='', $email, $title, $body)
 //  $arr = json_decode($json,true);
   $mail = new PHPMailer();
   $mail->IsSMTP();
-//  $mail->SMTPAuth   = true;
-//  $mail->SMTPSecure = 'tls';
-//  $mail->Port       = 587;
-//  $mail-> CharSet ="UTF-8";
+  $mail->SMTPAuth   = true;
+  $mail->SMTPSecure = 'ssl';
   $mail->Host       = 'smtp.163.com';
-
+  $mail->Port       = 465;
   $mail->Username   = '"15901839273@163.com"';
   $mail->Password   = "ly0304ly";
-
+  $mail->CharSet    = "utf-8";
   $mail->SetFrom('15901839273@163.com', '上海风赢网络科技有限公司');
   $mail->Subject    = $title;
   $mail->MsgHTML($body);
