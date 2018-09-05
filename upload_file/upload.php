@@ -1,6 +1,6 @@
 <?php
 require_once "../inc/common.php";
-print_r(222);
+require_once "db/la_base.php";
 
 if (is_file( '../plugin/OSS/autoload.php')) {
     require_once '../plugin/OSS/autoload.php';
@@ -15,15 +15,12 @@ $accessKeySecret = "OTETap8a971xgfYdNCawWuHTkbR5dj";
 $endpoint = "oss-cn-beijing.aliyuncs.com";
 // 存储空间名称
 $bucket = "hivebanks";
-print_r(1);
 $args = array('la_id');
 chk_empty_args('POST', $args);
 
 $la_id = get_arg_str('POST', 'la_id');
-print_r(1);
 if (!get_la_base_info($la_id))
     exit_error("1","您暂未开通文件上传功能");
-print_r(2);
 $scr = $_FILES['file']['tmp_name'];
 
 $ext = substr($_FILES['file']['name'],strrpos($_FILES['file']['name'],'.')+1); // 上传文件后缀
