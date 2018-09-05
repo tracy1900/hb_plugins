@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe1ffb03-d03a-4a16-9f48-6982a9986a7a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/plugin/email/class.phpmailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/email/class.phpmailer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/email/class.smtp.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/email/class.smtp.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,11 +22,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class.phpmailer.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="class.phpmailer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugin/email/class.phpmailer.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="296">
               <caret line="364" column="3" lean-forward="true" selection-start-line="364" selection-start-column="3" selection-end-line="364" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class.smtp.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plugin/email/class.smtp.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
             </state>
           </provider>
         </entry>
@@ -46,6 +55,7 @@
     <findStrings>
       <find>config</find>
       <find>timestamp</find>
+      <find>fsockopen</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -63,6 +73,7 @@
         <option value="$PROJECT_DIR$/email/send_email.php" />
         <option value="$PROJECT_DIR$/plugin/email/send_email.php" />
         <option value="$PROJECT_DIR$/plugin/email/class.phpmailer.php" />
+        <option value="$PROJECT_DIR$/plugin/email/class.smtp.php" />
       </list>
     </option>
   </component>
@@ -154,27 +165,28 @@
       <option name="presentableId" value="Default" />
       <updated>1536058824757</updated>
       <workItem from="1536058826075" duration="2570000" />
-      <workItem from="1536129642165" duration="3776000" />
+      <workItem from="1536129642165" duration="4049000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6346000" />
+    <option name="totallyTimeSpent" value="6619000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -183,7 +195,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,9 +272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugin/email/class.smtp.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugin/email/email_config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -289,6 +297,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="364" column="3" lean-forward="true" selection-start-line="364" selection-start-column="3" selection-end-line="364" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/email/class.smtp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
         </state>
       </provider>
     </entry>
