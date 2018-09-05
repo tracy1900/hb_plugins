@@ -42,7 +42,7 @@ if ($_FILES["file"]["size"] > $sizeLimit)
 
 
 $la_id = get_arg_str('POST', 'la_id');
-if (!get_la_base_info($la_id))
+if (!get_upload_file_la_base_info($la_id))
     exit_error("1","您暂未开通文件上传功能");
 $scr = $_FILES['file']['tmp_name'];
 
