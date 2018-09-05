@@ -11,7 +11,7 @@
 //======================================
 function send_email($name='', $email, $title, $body)
 {
-//  require_once('class.phpmailer.php');
+  require_once('class.phpmailer.php');
 //  $json = file_get_contents(__DIR__.'/email_config.json');
 //  $arr = json_decode($json,true);
   $mail = new PHPMailer();
