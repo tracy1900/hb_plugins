@@ -21,7 +21,7 @@ function send_email($name='', $email, $title, $body)
   $mail->Host       = 'smtp.163.com';
   $mail->Port       = 25;
   $mail->Username   = '"15901839273@163.com"';
-  $mail->Password   = "ly0304ly";
+  $mail->Password   = "Windwin2018";
   $mail->CharSet    = "utf-8";
     $mail->SMTPDebug = 2;
   $mail->SetFrom('15901839273@163.com', '上海风赢网络科技有限公司');
