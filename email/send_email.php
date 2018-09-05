@@ -8,6 +8,8 @@
 
 require_once '../plugin/email/send_email.php';
 
+require_once "../inc/common.php";
+
 $timestamp +=15*60;
 $title = '邮箱验证链接';
 $des = new Des();
