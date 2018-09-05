@@ -18,10 +18,10 @@ $args = array('la_id');
 chk_empty_args('GET', $args);
 
 $la_id = get_arg_str('GET', 'la_id');
-
+print_r(1);
 if (!get_la_base_info($la_id))
     exit_error("1","您暂未开通文件上传功能");
-
+print_r(2);
 $scr = $_FILES['file']['tmp_name'];
 
 $ext = substr($_FILES['file']['name'],strrpos($_FILES['file']['name'],'.')+1); // 上传文件后缀
