@@ -20,10 +20,10 @@ function send_email($name='', $email, $title, $body)
     $mail->SMTPSecure = 'ssl';
     $mail->Host       = 'smtp.163.com';
     $mail->Port       = 465;
-    $mail->Username   = 'phpmanong@163.com';
+    $mail->Username   = 'hivebanks@163.com';
     $mail->Password   = 'winwind2018';
     $mail->CharSet    = "utf-8";
-    $mail->SetFrom('phpmanong@163.com', '上海风赢网络科技有限公司');
+    $mail->SetFrom('hivebanks@163.com', 'hivebanks');
     $mail->Subject    = $title;
     $mail->MsgHTML($body);
     $mail->AddAddress($email, $name);
