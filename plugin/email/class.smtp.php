@@ -130,7 +130,7 @@ class SMTP {
 //                                 $errno,   // error number if any
 //                                 $errstr,  // error message if any
 //                                 $tval);   // give up after ? secs
-      $this->smtp_conn = stream_socket_client("tcp://".$host.":".$port, $errno,  $errstr,  $tval);
+      $this->smtp_conn = @stream_socket_client("tcp://".$host.":".$port, $errno,  $errstr,  $tval);
 
       // verify we connected properly
     if(empty($this->smtp_conn)) {
