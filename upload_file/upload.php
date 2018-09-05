@@ -18,6 +18,29 @@ $bucket = "hivebanks";
 $args = array('la_id');
 chk_empty_args('POST', $args);
 
+// 允许上传文件后缀
+$allowedExtensions = array('jpg', 'png', 'bmp','gif','jpeg','txt', 'doc', 'wps','rtf','pdf');
+$sizeLimit = 10 * 1024 *1024;
+
+
+// 上传文件为空
+if (empty($_FILES['file']))
+    exit_error('-1', '上传文件为空');
+
+$success = 0;
+$paths = array();
+
+$filename = $_FILES["file"]["name"];
+// echo  $filename;
+// 检查文件类型和大小
+$ext = explode('.', basename($filename));
+$ext = array_pop($ext);
+if (!in_array(strtolower($ext), $allowedExtensions))
+    exit_error('-1', '不支持该文件类型上传');
+if ($_FILES["file"]["size"] > $sizeLimit)
+    exit_error('-1', '单个文件大小不得超过10M');
+
+
 $la_id = get_arg_str('POST', 'la_id');
 if (!get_la_base_info($la_id))
     exit_error("1","您暂未开通文件上传功能");
@@ -39,7 +62,8 @@ try {
     php_end($rtn_str);
 
 } catch (\OSS\Core\OssException $e) {
-    print $e->getMessage();
+//    print $e->getMessage();
+    exit_error("1","上传失败");
 
 }
 
