@@ -16,17 +16,8 @@
       <file leaf-file-name="send_email.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugin/email/send_email.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class.phpmailer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugin/email/class.phpmailer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="364" column="3" lean-forward="true" selection-start-line="364" selection-start-column="3" selection-end-line="364" selection-end-column="3" />
+            <state relative-caret-position="180">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -56,6 +47,8 @@
       <find>config</find>
       <find>timestamp</find>
       <find>fsockopen</find>
+      <find>pass</find>
+      <find>passwd</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -165,12 +158,12 @@
       <option name="presentableId" value="Default" />
       <updated>1536058824757</updated>
       <workItem from="1536058826075" duration="2570000" />
-      <workItem from="1536129642165" duration="4375000" />
+      <workItem from="1536129642165" duration="4637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6945000" />
+    <option name="totallyTimeSpent" value="7207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -295,15 +288,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugin/email/class.phpmailer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="364" column="3" lean-forward="true" selection-start-line="364" selection-start-column="3" selection-end-line="364" selection-end-column="3" />
+        <state relative-caret-position="451">
+          <caret line="2187" column="31" selection-start-line="2187" selection-start-column="31" selection-end-line="2187" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugin/email/send_email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        <state relative-caret-position="180">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
         </state>
       </provider>
     </entry>
