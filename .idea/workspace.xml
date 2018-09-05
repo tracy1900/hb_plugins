@@ -2,6 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe1ffb03-d03a-4a16-9f48-6982a9986a7a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/inc/db_connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload_file/db/la_base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/transaction_order/ba_recharge.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/transaction_order/ba_recharge_confirm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/transaction_order/ba_withdraw.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/transaction_order/ba_withdraw_confirm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/transaction_order/ca_recharge.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/transaction_order/ca_recharge_confirm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/transaction_order/ca_withdraw.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/transaction_order/ca_withdraw_confirm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/transaction_order/db/com_base_balance.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/transaction_order/la_ba_recharge.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/transaction_order/la_ba_recharge_confirm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/transaction_order/la_ba_withdraw.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/transaction_order/la_ba_withdraw_confirm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/transaction_order/la_ca_recharge_confirm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/transaction_order/la_ca_withdraw.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/transaction_order/la_ca_withdraw_confirm.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/upload_file/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/upload_file/upload.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +46,33 @@
         <entry file="file://$PROJECT_DIR$/upload_file/upload.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+              <folding>
+                <element signature="e#230#249#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="la_base.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upload_file/db/la_base.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/common.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="db_connect.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/db_connect.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -42,6 +87,7 @@
       <list>
         <option value="$PROJECT_DIR$/inc/upload.php" />
         <option value="$PROJECT_DIR$/inc/db_connect.php" />
+        <option value="$PROJECT_DIR$/upload_file/db/la_base.php" />
         <option value="$PROJECT_DIR$/upload_file/upload.php" />
       </list>
     </option>
@@ -105,8 +151,8 @@
       <recent name="$PROJECT_DIR$/upload_file" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/inc" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/plugin" />
     </key>
   </component>
@@ -132,12 +178,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536058824757</updated>
-      <workItem from="1536058826075" duration="670000" />
+      <workItem from="1536058826075" duration="1317000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="670000" />
+    <option name="totallyTimeSpent" value="1317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -171,6 +217,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/plugin/OSS/Core/OssUtil.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/des.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/common.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/inc/db_connect.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -178,16 +233,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugin/OSS/Core/OssUtil.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/des.php">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/upload_file/db/la_base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/upload_file/upload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="e#230#249#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
