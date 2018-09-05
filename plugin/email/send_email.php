@@ -17,7 +17,7 @@ function send_email($name='', $email, $title, $body)
   $mail = new PHPMailer();
   $mail->IsSMTP();
   $mail->SMTPAuth   = true;
-  $mail->SMTPSecure = 'ssl';
+  $mail->SMTPSecure = 'tls';
   $mail->Host       = 'smtp.163.com';
   $mail->Port       = 587;
   $mail->Username   = '"15901839273@163.com"';
