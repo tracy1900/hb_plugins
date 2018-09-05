@@ -19,11 +19,11 @@ function send_email($name='', $email, $title, $body)
   $mail->SMTPAuth   = true;
   $mail->SMTPSecure = 'ssl';
   $mail->Host       = 'smtp.163.com';
-  $mail->Port       = 25;
+  $mail->Port       = 465;
   $mail->Username   = '"15901839273@163.com"';
   $mail->Password   = "Windwin2018";
   $mail->CharSet    = "utf-8";
-    $mail->SMTPDebug = 2;
+//    $mail->SMTPDebug = 2;
   $mail->SetFrom('15901839273@163.com', '上海风赢网络科技有限公司');
   $mail->Subject    = $title;
   $mail->MsgHTML($body);
