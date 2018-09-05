@@ -11,7 +11,7 @@ require_once '../plugin/email/send_email.php';
 
 require_once "../inc/common.php";
 
-$ret = send_email($name='', "1378333642@qq.com", "祖国", "我爱你");
+$ret = send_email($name='1646', "1378333642@qq.com", "祖国", "我爱你");
 if(!$ret){
     exit_error('124','邮件发送失败请稍后重试！');
 }
