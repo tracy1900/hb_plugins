@@ -2,17 +2,17 @@
 
 require_once('mysql.php');
 require_once('db_connect.php');
-require_once('config_db_bind.php');
+//require_once('config_db_bind.php');
 
-$config = get_token_key();
-define('KEY', $config['option_value']);
-$url_config = get_la_base_url();
-define('SYSTEM_URL', $url_config['api_url']."/api");
-define('H5_URL', $url_config['h5_url']);
+//$config = get_token_key();
+//define('KEY', $config['option_value']);
+//$url_config = get_la_base_url();
+//define('SYSTEM_URL', $url_config['api_url']."/api");
+//define('H5_URL', $url_config['h5_url']);
 
-define('BASE_UNIT', get_base_unit());
+//define('BASE_UNIT', get_base_unit());
 
-define('BASE_CURRENCY',get_base_currency());
+//define('BASE_CURRENCY',get_base_currency());
 if(!defined('APP_ROOT_PATH'))
     define('APP_ROOT_PATH', str_replace('inc/config.php', '', str_replace('\\', '/', __FILE__)));
 // 配置信息类
