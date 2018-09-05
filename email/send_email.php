@@ -5,7 +5,8 @@
  * Date: 2018/9/5
  * Time: 下午3:57
  */
-
+ini_set('display_errors','On');
+Error_reporting(E_ALL);
 require_once '../plugin/email/send_email.php';
 
 require_once "../inc/common.php";
