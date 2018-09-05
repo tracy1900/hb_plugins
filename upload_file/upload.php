@@ -1,5 +1,5 @@
 <?php
-
+require_once "../inc/common.php";
 print_r(222);
 
 if (is_file( '../plugin/OSS/autoload.php')) {
