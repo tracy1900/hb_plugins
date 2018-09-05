@@ -17,9 +17,9 @@ function send_email($name='', $email, $title, $body)
     $mail = new PHPMailer();
     $mail->IsSMTP();
     $mail->SMTPAuth   = true;
-//    $mail->SMTPSecure = 'ssl';
+    $mail->SMTPSecure = 'ssl';
     $mail->Host       = 'smtp.163.com';
-    $mail->Port       = 25;
+    $mail->Port       = 465;
     $mail->Username   = 'hivebanks@163.com';
     $mail->Password   = 'winwind2018';
     $mail->CharSet    = "utf-8";
