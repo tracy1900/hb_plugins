@@ -17,9 +17,9 @@ $endpoint = "oss-cn-beijing.aliyuncs.com";
 $bucket = "hivebanks";
 print_r(1);
 $args = array('la_id');
-chk_empty_args('GET', $args);
+chk_empty_args('POST', $args);
 
-$la_id = get_arg_str('GET', 'la_id');
+$la_id = get_arg_str('POST', 'la_id');
 print_r(1);
 if (!get_la_base_info($la_id))
     exit_error("1","您暂未开通文件上传功能");
