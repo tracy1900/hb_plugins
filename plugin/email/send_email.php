@@ -16,10 +16,10 @@ function send_email($name='', $email, $title, $body)
 //  $arr = json_decode($json,true);
   $mail = new PHPMailer();
   $mail->IsSMTP();
-  $mail->SMTPAuth   = true;
-  $mail->SMTPSecure = 'tls';
-  $mail->Port       = 587;
-  $mail-> CharSet ="UTF-8";
+//  $mail->SMTPAuth   = true;
+//  $mail->SMTPSecure = 'tls';
+//  $mail->Port       = 587;
+//  $mail-> CharSet ="UTF-8";
   $mail->Host       = 'smtp.163.com';
 
   $mail->Username   = '"15901839273@163.com"';
