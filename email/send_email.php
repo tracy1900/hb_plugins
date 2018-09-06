@@ -32,7 +32,7 @@ if(!$ret){
 
     $data_log['status'] = 1;
     $data_log['log_id'] = get_guid();
-    $data_log['la_id'] = 'email';
+    $data_log['la_id'] = $la_id;
     $data_log['action_id'] = 'action_id';
     $data_log['email'] = $email;
     $data_log['ctime'] = time();
@@ -47,7 +47,7 @@ $callback = array();
 
 $data_log['status'] = 0;
 $data_log['log_id'] = get_guid();
-$data_log['la_id'] = 'email';
+$data_log['la_id'] = $la_id;
 $data_log['action_id'] = 'action_id';
 $data_log['email'] = $email;
 $data_log['ctime'] = time();
