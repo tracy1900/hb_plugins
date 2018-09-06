@@ -52,9 +52,22 @@ $ext = substr($_FILES['file']['name'],strrpos($_FILES['file']['name'],'.')+1); /
 
 $dst = md5(time()).'-'.$scr.'.'.$ext;
 
+$data_log = array();
 try {
+    $data_log['status'] = 1;
+    $data_log['log_id'] = get_guid();
+    $data_log['la_id'] = $la_id;
+    $data_log['url'] =
     $ossClient = new \OSS\OssClient($accessKeyId, $accessKeySecret, $endpoint);
     $data = $ossClient->uploadFile($bucket, $dst, $scr);
+
+    $data_log['status'] = 1;
+    $data_log['log_id'] = get_guid();
+    $data_log['la_id'] = $la_id;
+    $data_log['url'] = $data['info']['url'];
+    $data_log['ctime'] = time();
+    action_log_upload($data_log);
+
     $rtn_ary = array();
     $rtn_ary['errcode'] = '0';
     $rtn_ary['errmsg'] = '';
@@ -63,6 +76,12 @@ try {
     php_end($rtn_str);
 
 } catch (\OSS\Core\OssException $e) {
+    $data_log['status'] = 0;
+    $data_log['log_id'] = get_guid();
+    $data_log['la_id'] = $la_id;
+    $data_log['url'] = '';
+    $data_log['ctime'] = time();
+    action_log_upload($data_log);
 //    print $e->getMessage();
     exit_error("1","上传失败");
 
