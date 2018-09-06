@@ -17,6 +17,9 @@ $data = array();
 $data["la_id"] = $la_id;
 $data["type"] = $type;
 
+if(!get_upload_file_la_base_info($la_id))
+    exit_error("1","请勿重复提交");
+
 if(!ins_upload_file_service($data))
     exit_error("1","提交失败");
 else
