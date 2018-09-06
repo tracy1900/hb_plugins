@@ -7,6 +7,7 @@
  */
 
 require_once "../inc/common.php";
+require_once "db/la_base.php";
 $args = array('la_id');
 chk_empty_args('POST', $args);
 $la_id = get_arg_str('POST', 'la_id');
