@@ -18,7 +18,7 @@ $email = get_arg_str('POST', 'email');
 $title = get_arg_str('POST', 'title');
 $body = get_arg_str('POST', 'body');
 
-print_r($body);
+print_r('\n'.$body);
 die;
 
 
