@@ -16,7 +16,7 @@ $type = get_arg_str('POST', 'type');
 $data = array();
 $data["la_id"] = $la_id;
 $data["type"] = $type;
-
+$data["status"] = 0;
 if(get_upload_file_la_base_info($la_id))
     exit_error("1","请勿重复提交");
 
