@@ -26,6 +26,7 @@ if(!$ret){
     echo json_encode($callback);
     exit();
 }
+$callback = array();
 $callback["errcode"] = '0';
 $callback['errmsg'] = "Please verify email as soon as possible!";
 echo json_encode($callback);
