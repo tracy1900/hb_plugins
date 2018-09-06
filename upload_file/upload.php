@@ -1,6 +1,7 @@
 <?php
 require_once "../inc/common.php";
 require_once "db/la_base.php";
+require_once "db/log_upload.php";
 
 if (is_file( '../plugin/OSS/autoload.php')) {
     require_once '../plugin/OSS/autoload.php';
@@ -66,7 +67,7 @@ try {
     $data_log['status'] = 1;
     $data_log['log_id'] = get_guid();
     $data_log['la_id'] = $la_id;
-    $data_log['action_id'] = $la_id;
+    $data_log['action_id'] = $id;
     $data_log['url'] = $data['info']['url'];
     $data_log['ctime'] = time();
     action_log_upload($data_log);
@@ -82,7 +83,7 @@ try {
     $data_log['status'] = 0;
     $data_log['log_id'] = get_guid();
     $data_log['la_id'] = $la_id;
-    $data_log['action_id'] = $la_id;
+    $data_log['action_id'] = $id;
     $data_log['url'] = '';
     $data_log['ctime'] = time();
     action_log_upload($data_log);
