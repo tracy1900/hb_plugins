@@ -13,3 +13,14 @@ function get_upload_file_la_base_info($la_id)
     $row = $db->fetchRow();
     return $row;
 }
+
+function ins_upload_file_service($data_base)
+{
+
+    $db = new DB_COM();
+    $sql = $db ->sqlInsert("la_base", $data_base);
+    $q_id = $db->query($sql);
+    if ($q_id == 0)
+        return false;
+    return true;
+}
