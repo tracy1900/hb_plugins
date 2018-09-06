@@ -8,6 +8,9 @@
 
 
 require_once "../inc/common.php";
+if (is_file( '../plugin/sms/autoload.php')) {
+    require_once '../plugin/sms/autoload.php';
+}
 
 $cellphone = "15901839273";
 $code = "1234";
