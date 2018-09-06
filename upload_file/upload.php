@@ -13,8 +13,7 @@ use \OSS\Core\OssException;
 
 
 
-print_r($_FILES);
-die;
+
 $accessKeyId = "LTAIuTfkvjnNg54j";
 $accessKeySecret = "OTETap8a971xgfYdNCawWuHTkbR5dj";
 $endpoint = "oss-cn-beijing.aliyuncs.com";
@@ -51,6 +50,12 @@ if ($_FILES["file"]["size"] > $sizeLimit)
 
 
 $la_id = get_arg_str('POST', 'la_id');
+
+
+print_r($_FILES);
+print_r($la_id);
+
+die;
 if (!get_upload_file_la_base_info($la_id))
     exit_error("1","您暂未开通文件上传功能");
 $scr = $_FILES['file']['tmp_name'];
