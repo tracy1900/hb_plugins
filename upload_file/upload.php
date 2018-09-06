@@ -57,10 +57,7 @@ $dst = md5(time()).'-'.$scr.'.'.$ext;
 
 $data_log = array();
 try {
-    $data_log['status'] = 1;
-    $data_log['log_id'] = get_guid();
-    $data_log['la_id'] = $la_id;
-    $data_log['url'] =
+
     $ossClient = new \OSS\OssClient($accessKeyId, $accessKeySecret, $endpoint);
     $data = $ossClient->uploadFile($bucket, $dst, $scr);
 

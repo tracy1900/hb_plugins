@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe1ffb03-d03a-4a16-9f48-6982a9986a7a" name="Default" comment="" />
+    <list default="true" id="fe1ffb03-d03a-4a16-9f48-6982a9986a7a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/email/db/log_email.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email/log_email/log_email.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/email/send_email.php" beforeDir="false" afterPath="$PROJECT_DIR$/email/send_email.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sms/db/log_sms.php" beforeDir="false" afterPath="$PROJECT_DIR$/sms/db/log_sms.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload_file/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/upload_file/upload.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +21,8 @@
       <file leaf-file-name="send_email.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/email/send_email.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="314">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -91,8 +98,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -199,12 +207,12 @@
       <option name="presentableId" value="Default" />
       <updated>1536058824757</updated>
       <workItem from="1536058826075" duration="2570000" />
-      <workItem from="1536129642165" duration="17474000" />
+      <workItem from="1536129642165" duration="17674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20044000" />
+    <option name="totallyTimeSpent" value="20244000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -412,8 +420,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/email/send_email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="314">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
         </state>
       </provider>
     </entry>
