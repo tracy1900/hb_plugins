@@ -17,4 +17,9 @@ $data = array();
 $data["la_id"] = $la_id;
 $data["type"] = $type;
 
-ins_upload_file_service($data);
+if(!ins_upload_file_service($data))
+    exit_error("1","提交失败");
+else
+    exit_ok("提交成功，请等待审核");
+
+
