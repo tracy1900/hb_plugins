@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe1ffb03-d03a-4a16-9f48-6982a9986a7a" name="Default" comment="" />
+    <list default="true" id="fe1ffb03-d03a-4a16-9f48-6982a9986a7a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/email/send_email.php" beforeDir="false" afterPath="$PROJECT_DIR$/email/send_email.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +16,8 @@
       <file leaf-file-name="send_email.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/email/send_email.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            <state relative-caret-position="363">
+              <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -52,6 +54,7 @@
       <find>$mail</find>
       <find>Aliyun</find>
       <find>DySDKLite</find>
+      <find>print_r</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -200,12 +203,12 @@
       <option name="presentableId" value="Default" />
       <updated>1536058824757</updated>
       <workItem from="1536058826075" duration="2570000" />
-      <workItem from="1536129642165" duration="18046000" />
+      <workItem from="1536129642165" duration="18158000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20616000" />
+    <option name="totallyTimeSpent" value="20728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -413,8 +416,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/email/send_email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        <state relative-caret-position="363">
+          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
         </state>
       </provider>
     </entry>
