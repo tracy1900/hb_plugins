@@ -19,6 +19,7 @@ $body = get_arg_str('POST', 'body');
 
 $ret = send_email($name='1646', $email, $title, $body);
 if(!$ret){
-    exit_error('124','邮件发送失败请稍后重试！');
+//    exit_error('124','邮件发送失败请稍后重试！');
+    return '邮件发送失败请稍后重试！';
 }
-exit_ok('Please verify email as soon as possible!');
+return 'Please verify email as soon as possible!';
