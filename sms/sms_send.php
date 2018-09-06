@@ -7,7 +7,7 @@
  */
 
 
-
+require_once "../inc/common.php";
 
 $cellphone = "15901839273";
 $code = "1234";
