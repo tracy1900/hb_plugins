@@ -10,12 +10,21 @@ if (is_file( '../plugin/OSS/autoload.php')) {
 use \OSS\OssClient;
 
 use \OSS\Core\OssException;
+
+
+
+print_r($_FILES);
+die;
 $accessKeyId = "LTAIuTfkvjnNg54j";
 $accessKeySecret = "OTETap8a971xgfYdNCawWuHTkbR5dj";
 $endpoint = "oss-cn-beijing.aliyuncs.com";
 // 存储空间名称
 $bucket = "hivebanks";
+
+
 $args = array('la_id');
+
+
 chk_empty_args('POST', $args);
 
 // 允许上传文件后缀
