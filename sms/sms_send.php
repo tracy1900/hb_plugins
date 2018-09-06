@@ -13,7 +13,7 @@ if (is_file( '../plugin/sms/autoload.php')) {
 }
 
 
-use Aliyun\DySDKLite\Sms;
+use Aliyun\DySDKLite\Sms\SMS;
 
 
 $cellphone = "15901839273";
