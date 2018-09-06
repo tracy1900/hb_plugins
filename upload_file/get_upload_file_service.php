@@ -16,9 +16,8 @@ $la_id = get_arg_str('POST', 'la_id');
 //$data = array();
 //$data["la_id"] = $la_id;
 //$data["type"] = $type;
-
+$row = array();
 $row = get_upload_file_la_base_info($la_id);
-print_r($row);
 // 返回数据做成
 $rtn_ary = array();
 $rtn_ary['errcode'] = '0';
