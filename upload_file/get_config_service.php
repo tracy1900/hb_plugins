@@ -13,9 +13,6 @@ $args = array('la_id');
 chk_empty_args('POST', $args);
 $la_id = get_arg_str('POST', 'la_id');
 
-//$data = array();
-//$data["la_id"] = $la_id;
-//$data["type"] = $type;
 $row = get_upload_file_la_base_info($la_id);
 // 返回数据做成
 $rtn_ary = array();
