@@ -11,13 +11,11 @@ require_once '../plugin/email/send_email.php';
 
 require_once "../inc/common.php";
 
-
 $args = array('email','title','body');
 chk_empty_args('POST', $args);
 $email = get_arg_str('POST', 'email');
 $title = get_arg_str('POST', 'title');
 $body = get_arg_str('POST', 'body');
-
 
 $ret = send_email($name='1646', $email, $title, $body);
 if(!$ret){
