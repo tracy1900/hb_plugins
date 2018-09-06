@@ -1,6 +1,7 @@
 <?php
 require_once "../inc/common.php";
 require_once "db/la_base.php";
+require_once "db/log_upload.php";
 
 if (is_file( '../plugin/OSS/autoload.php')) {
     require_once '../plugin/OSS/autoload.php';
