@@ -31,18 +31,18 @@ class SMS{
 
         // *** 需用户填写部分 ***
         // ali secret
-        $json = file_get_contents(__DIR__.'/sms_config.json');
-        $arr = json_decode($json,true);
-        $accessKeyId = $arr["accessKeyId"];
-        $accessKeySecret = $arr["accessKeySecret"];
+//        $json = file_get_contents(__DIR__.'/sms_config.json');
+//        $arr = json_decode($json,true);
+        $accessKeyId = 'qTfC9LPTvbBsroMK';
+        $accessKeySecret = '9msfo6XfoUy6d7Gt8KMmHPcAUrOzHq';
         // phone
         $params["PhoneNumbers"] = $phone;
 
         // 短信签名
-        $params["SignName"] = $arr["SignName"];
+        $params["SignName"] = '范助国';
 
         // 短信模版 https://dysms.console.aliyun.com/dysms.htm#/develop/template
-        $params["TemplateCode"] = $arr["TemplateCode"];
+        $params["TemplateCode"] = 'SMS_139020036';
 
         // 短信验证码
         $params['TemplateParam'] = Array (
