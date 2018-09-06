@@ -64,6 +64,7 @@ try {
     $data_log['status'] = 1;
     $data_log['log_id'] = get_guid();
     $data_log['la_id'] = $la_id;
+    $data_log['action_id'] = $la_id;
     $data_log['url'] = $data['info']['url'];
     $data_log['ctime'] = time();
     action_log_upload($data_log);
@@ -79,6 +80,7 @@ try {
     $data_log['status'] = 0;
     $data_log['log_id'] = get_guid();
     $data_log['la_id'] = $la_id;
+    $data_log['action_id'] = $la_id;
     $data_log['url'] = '';
     $data_log['ctime'] = time();
     action_log_upload($data_log);

@@ -14,7 +14,7 @@
 function action_log_upload($data){
 
     $db = new DB_COM();
-    $sql = $db->sqlInsert($data);
+    $sql = $db->sqlInsert("log_upload",$data);
     $q_id = $db->query($sql);
     if($q_id==0)
         return false;
