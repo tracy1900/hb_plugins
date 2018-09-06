@@ -21,6 +21,8 @@ $body = get_arg_str('POST', 'body');
 print_r($body);
 die;
 
+
+
 $callback = array();
 $ret = send_email($name='', $email, $title, $body);
 
