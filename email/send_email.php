@@ -18,7 +18,7 @@ $args = array('email','title','body');
 chk_empty_args('POST', $args);
 $email = get_arg_str('POST', 'email');
 $title = get_arg_str('POST', 'title');
-$body = get_arg_str('POST', 'body');
+$body = get_arg_str('POST', 'body','1000');
 
 print_r(1111);
 print_r('\n'.$body);
