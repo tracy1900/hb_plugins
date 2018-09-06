@@ -30,9 +30,7 @@ class SMS{
         $params = array ();
 
         // *** 需用户填写部分 ***
-        // ali secret
-//        $json = file_get_contents(__DIR__.'/sms_config.json');
-//        $arr = json_decode($json,true);
+  
         $accessKeyId = 'qTfC9LPTvbBsroMK';
         $accessKeySecret = '9msfo6XfoUy6d7Gt8KMmHPcAUrOzHq';
         // phone
