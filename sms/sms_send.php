@@ -8,13 +8,10 @@
 
 
 require_once "../inc/common.php";
-if (is_file( '../plugin/sms/autoload.php')) {
-    require_once '../plugin/sms/autoload.php';
-}
-
-
-use Aliyun\DySDKLite\Sms\SMS;
-
+require_once "../plugin/sms/sendSms.php";
+//if (is_file( '../plugin/sms/autoload.php')) {
+//    require_once '../plugin/sms/autoload.php';
+//}
 
 $cellphone = "15901839273";
 $code = "1234";
