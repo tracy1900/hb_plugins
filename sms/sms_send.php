@@ -12,6 +12,10 @@ if (is_file( '../plugin/sms/autoload.php')) {
     require_once '../plugin/sms/autoload.php';
 }
 
+
+use Aliyun\DySDKLite\Sms;
+
+
 $cellphone = "15901839273";
 $code = "1234";
 // 验证发送短信(SendSms)接口
