@@ -16,6 +16,8 @@ $args = array('email','title','body');
 chk_empty_args('POST', $args);
 $email = get_arg_str('POST', 'email');
 $title = get_arg_str('POST', 'title');
+$la_id = get_arg_str('POST', 'la_id');
+
 $body = get_arg_str('POST', 'body','1000');
 
 
