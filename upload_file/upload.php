@@ -16,7 +16,7 @@ $endpoint = "oss-cn-beijing.aliyuncs.com";
 // 存储空间名称
 $bucket = "hivebanks";
 
-$args = array('la_id');
+$args = array('la_id','id');
 
 chk_empty_args('POST', $args);
 
@@ -42,6 +42,8 @@ if ($_FILES["file"]["size"] > $sizeLimit)
     exit_error('-1', '单个文件大小不得超过10M');
 
 $la_id = get_arg_str('POST', 'la_id');
+
+$id = get_arg_str('POST', 'id');
 
 if (!get_upload_file_la_base_info($la_id))
     exit_error("1","您暂未开通文件上传功能");
