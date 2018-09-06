@@ -16,10 +16,16 @@ chk_empty_args('POST', $args);
 $email = get_arg_str('POST', 'email');
 $title = get_arg_str('POST', 'title');
 $body = get_arg_str('POST', 'body');
+$callback = array();
+$callback["errcode"] = '0';
+$callback['errmsg'] = "11";
 
-$ret = send_email($name='1646', $email, $title, $body);
-if(!$ret){
-//    exit_error('124','邮件发送失败请稍后重试！');
-    return '邮件发送失败请稍后重试！';
-}
-return 'Please verify email as soon as possible!';
+echo json_encode($callback);
+exit();
+
+//$ret = send_email($name='1646', $email, $title, $body);
+//if(!$ret){
+////    exit_error('124','邮件发送失败请稍后重试！');
+//    return '邮件发送失败请稍后重试！';
+//}
+//return 'Please verify email as soon as possible!';
