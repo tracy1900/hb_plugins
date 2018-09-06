@@ -8,6 +8,7 @@
 
 
 require_once "../inc/common.php";
+require_once "db/log_sms.php";
 require_once "../plugin/sms/sendSms.php";
 
 
@@ -23,8 +24,17 @@ $res_obj = $sms->send_sms($cellphone,$code);
 $res_arr = (array) $res_obj;
 $res_code = $res_arr['Code'];
 
+$log_data = array();
 switch ($res_code){
+
     case 'OK':
+        $data_log['status'] = 1;
+        $data_log['log_id'] = get_guid();
+        $data_log['la_id'] = $la_id;
+        $data_log['action_id'] = 'action_id';
+        $data_log['phone'] = $cellphone;
+        $data_log['ctime'] = time();
+        action_log_sms($data_log);
         $callback["errcode"] = '0';
         $callback['errmsg'] = "发送成功";
         echo json_encode($callback);
@@ -33,6 +43,13 @@ switch ($res_code){
 
         break;
     default ;
+        $data_log['status'] = 0;
+        $data_log['log_id'] = get_guid();
+        $data_log['la_id'] = $la_id;
+        $data_log['action_id'] = 'action_id';
+        $data_log['phone'] = $cellphone;
+        $data_log['ctime'] = time();
+        action_log_sms($data_log);
         $callback["errcode"] = '1';
         $callback['errmsg'] = "短信发送失败请稍后重试！";
         echo json_encode($callback);
