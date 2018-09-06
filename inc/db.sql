@@ -13,6 +13,7 @@ CREATE TABLE `log_sms` (
   `la_id` char(64) NOT NULL DEFAULT '',
   `action_id` char(64) NOT NULL DEFAULT '',
   `phone` varchar (127) NOT NULL DEFAULT '',
+  `code` char (10) NOT NULL DEFAULT '',
   `status` tinyint(1) DEFAULT 0,
   `ctime` bigint(20) DEFAULT 0,
   PRIMARY KEY (`log_id`)

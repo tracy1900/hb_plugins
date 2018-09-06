@@ -34,6 +34,7 @@ switch ($res_code){
         $data_log['action_id'] = 'action_id';
         $data_log['phone'] = $cellphone;
         $data_log['ctime'] = time();
+        $data_log['code'] = $code;
         action_log_sms($data_log);
         $callback["errcode"] = '0';
         $callback['errmsg'] = "发送成功";
@@ -49,6 +50,7 @@ switch ($res_code){
         $data_log['action_id'] = 'action_id';
         $data_log['phone'] = $cellphone;
         $data_log['ctime'] = time();
+        $data_log['code'] = $code;
         action_log_sms($data_log);
         $callback["errcode"] = '1';
         $callback['errmsg'] = "短信发送失败请稍后重试！";
