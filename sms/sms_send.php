@@ -11,11 +11,11 @@ require_once "../inc/common.php";
 require_once "../plugin/sms/sendSms.php";
 
 
-$args = array('phone','code');
+$args = array('cellphone','code');
 chk_empty_args('POST', $args);
-$cellphone = get_arg_str('POST', 'phone');
+$cellphone = get_arg_str('POST', 'cellphone');
 $code = get_arg_str('POST', 'code');
-
+$la_id = get_arg_str('POST', 'la_id');
 $callback = array();
 // 验证发送短信(SendSms)接口
 $sms = new \Aliyun\DySDKLite\Sms\SMS();
