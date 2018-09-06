@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe1ffb03-d03a-4a16-9f48-6982a9986a7a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/sms/sms_send.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plugin/email/send_email.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/email/send_email.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,20 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="send_email.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/plugin/email/send_email.php">
+      <file leaf-file-name="sms_send.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sms/sms_send.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="send_email.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/email/send_email.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+            <state relative-caret-position="180">
+              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -61,6 +53,7 @@
         <option value="$PROJECT_DIR$/plugin/email/class.smtp.php" />
         <option value="$PROJECT_DIR$/email/send_email.php" />
         <option value="$PROJECT_DIR$/plugin/email/send_email.php" />
+        <option value="$PROJECT_DIR$/sms/sms_send.php" />
       </list>
     </option>
   </component>
@@ -89,17 +82,6 @@
             <path>
               <item name="HB_Agent_Service" type="b2602c69:ProjectViewProjectNode" />
               <item name="HB_Agent_Service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HB_Agent_Service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HB_Agent_Service" type="462c0819:PsiDirectoryNode" />
-              <item name="plugin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HB_Agent_Service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HB_Agent_Service" type="462c0819:PsiDirectoryNode" />
-              <item name="plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="email" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HB_Agent_Service" type="b2602c69:ProjectViewProjectNode" />
@@ -152,12 +134,12 @@
       <option name="presentableId" value="Default" />
       <updated>1536058824757</updated>
       <workItem from="1536058826075" duration="2570000" />
-      <workItem from="1536129642165" duration="6657000" />
+      <workItem from="1536129642165" duration="7526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9227000" />
+    <option name="totallyTimeSpent" value="10096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -276,21 +258,28 @@
     <entry file="file://$PROJECT_DIR$/email/send_email.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugin/email/class.phpmailer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="605" column="18" selection-start-line="605" selection-start-column="13" selection-end-line="605" selection-end-column="18" />
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugin/email/send_email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        <state relative-caret-position="270">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/email/class.phpmailer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="605" column="18" selection-start-line="605" selection-start-column="13" selection-end-line="605" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sms/sms_send.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
